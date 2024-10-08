@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPA Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -21,8 +22,20 @@
         </a>
     </nav>
 
+    <h1 id="defult">welcome to our beautiful site</h1>
+    <h2 id="defult2">pleas press log in to log into our site</h2>
+
     <template id="log-in">
         <h1>log in page</h1>
+        <form id="myForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="Password">Password:</label><br>
+            <input type="password" id="pass" name="Password"><br><br>
+
+            <input class="button" type="submit" id="submit" value="sign up">
+            <a><button id="log-in" class="button">Log in </button></a>
+        </form>
     </template>
 
     <template id="game">
@@ -34,6 +47,13 @@
 
     <template id="home">
         <h1>home page</h1>
+        <h2>a lottle bit about us:</h2>
+        <p>I just launched a new website, and it's a blank canvas with no clear purpose or theme. The design is
+            minimalistic, featuring a simple layout and a calming color palette. There are no specific topics or content
+            yet, which gives visitors the freedom to imagine what it could become. It's an open invitation for
+            creativity, encouraging anyone who stumbles upon it to envision their own ideas and inspirations. As I
+            continue to develop it, I look forward to seeing what direction it might take and how it can evolve over
+            time.</p>
     </template>
 
 

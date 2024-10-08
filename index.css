@@ -1,0 +1,20 @@
+p, h1 {
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px 0;
+}
+nav a {
+  color: darkblue;
+  border: 3px solid darkblue;
+  padding: 0 7%;
+  background-color: lightblue;
+}
+nav a:hover {
+  background-color: rgb(89, 127, 155);
+}/*# sourceMappingURL=index.css.map */
