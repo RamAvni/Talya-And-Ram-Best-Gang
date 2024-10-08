@@ -1,4 +1,5 @@
-p, h1 {
+p,
+h1 {
   font-size: 2em;
 }
 
@@ -17,4 +18,19 @@ nav a {
 }
 nav a:hover {
   background-color: rgb(89, 127, 155);
+}
+
+#game-div {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: lightblue;
+}
+#game-div button {
+  width: 10%;
+  aspect-ratio: 1/1;
+}
+button img {
+  width: 100%;
+  aspect-ratio: 1/1;
 }/*# sourceMappingURL=index.css.map */
